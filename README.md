@@ -4,6 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/McManus-C/McMito-Live-releases/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/McManus-C/McMito-Live-releases?label=latest%20release&color=0e9f9f"></a>
+  <a href="https://doi.org/10.5281/zenodo.23762699"><img alt="DOI" src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23762699-blue"></a>
   <a href="https://www.mcmito.com"><img alt="Website" src="https://img.shields.io/badge/website-mcmito.com-0b3d5c"></a>
   <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-lightgrey">
 </p>
@@ -16,6 +17,7 @@
 |---|---|
 | **Version** | **1.4.3** (28 October 2026) |
 | **Download** | [McMitoLive_Setup_1.4.3.exe](https://github.com/McManus-C/McMito-Live-releases/releases/latest), from the *Assets* list on the release page |
+| **DOI** | [10.5281/zenodo.23762699](https://doi.org/10.5281/zenodo.23762699) (all versions) |
 | **Analysis engine** | [MCMITO](https://github.com/McManus-C/McMito-releases) 1.4.3, built in |
 | **Website** | [www.mcmito.com](https://www.mcmito.com) |
 | **Contact / licence keys** | cmcman@essex.ac.uk |
@@ -98,15 +100,19 @@ Use *Help → Check for updates…*. The app only installs releases published he
 
 ## How to cite
 
-McMito Live records the data; the analysis is MCMITO. Please cite MCMITO and the method:
+McMito Live records the data; the analysis is MCMITO. Please cite MCMITO and the method, giving the version you used in the brackets (the DOI covers every version):
 
-> McManus, C. (2026). *MCMITO: Near-infrared spectroscopy analysis of skeletal-muscle mitochondrial oxidative capacity* (Version 1.4.3) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22647702
+> McManus, C. (2026). *MCMITO: Near-infrared spectroscopy analysis of skeletal-muscle mitochondrial oxidative capacity* (Version 1.4.3) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21976705
 
 > Ryan TE, Erickson ML, Brizendine JT, Young HJ, McCully KK. Noninvasive evaluation of skeletal muscle mitochondrial capacity with near-infrared spectroscopy: correcting for blood volume changes. *Journal of Applied Physiology*. 2012;113(2):175–183. https://doi.org/10.1152/japplphysiol.00319.2012
 
 If you use blood flow correction Method 4 (the default for McMito Live data) or the best-fit slope window, also cite:
 
 > Beever AT, Tripp TR, Zhang J, MacInnis MJ. NIRS-derived skeletal muscle oxidative capacity is correlated with aerobic fitness and independent of sex. *Journal of Applied Physiology*. 2020;129(3):558–568. https://doi.org/10.1152/japplphysiol.00017.2020
+
+If you describe the acquisition and cuff control, also cite McMito Live:
+
+> McManus, C. (2026). *McMito Live: real-time muscle NIRS acquisition, protocol control and cuff automation for the repeated-occlusion test of mitochondrial oxidative capacity* (Version 1.4.3) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23762699
 
 ---
 

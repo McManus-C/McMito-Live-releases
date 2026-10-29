@@ -32,6 +32,6 @@ McMito Live is a research aid, not a safety system. Cuff pressure is set on the 
 
 ## Citation
 
-Please cite MCMITO and the method: McManus, C. (2026). *MCMITO: Near-infrared spectroscopy analysis of skeletal-muscle mitochondrial oxidative capacity* (Version 1.4.3) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22647702 · Ryan TE et al. *J Appl Physiol* 2012;113(2):175–183 · and, for Method 4, Beever AT et al. *J Appl Physiol* 2020;129(3):558–568.
+Please cite MCMITO and the method: McManus, C. (2026). *MCMITO: Near-infrared spectroscopy analysis of skeletal-muscle mitochondrial oxidative capacity* (Version 1.4.3) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21976705 · Ryan TE et al. *J Appl Physiol* 2012;113(2):175–183 · and, for Method 4, Beever AT et al. *J Appl Physiol* 2020;129(3):558–568. To cite McMito Live itself: McManus, C. (2026). *McMito Live: real-time muscle NIRS acquisition, protocol control and cuff automation for the repeated-occlusion test of mitochondrial oxidative capacity* (Version 1.4.3) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23762699 (the DOIs here cover every version).
 
 McMito Live is for research and educational use only and is not a medical device.
