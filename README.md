@@ -14,9 +14,9 @@
 
 | | |
 |---|---|
-| **Version** | **1.4.1** (12 October 2026), first public release |
-| **Download** | [McMitoLive_Setup_1.4.1.exe](https://github.com/McManus-C/McMito-Live-releases/releases/latest), from the *Assets* list on the release page |
-| **Analysis engine** | [MCMITO](https://github.com/McManus-C/McMito-releases) 1.4.1, built in |
+| **Version** | **1.4.3** (28 October 2026) |
+| **Download** | [McMitoLive_Setup_1.4.3.exe](https://github.com/McManus-C/McMito-Live-releases/releases/latest), from the *Assets* list on the release page |
+| **Analysis engine** | [MCMITO](https://github.com/McManus-C/McMito-releases) 1.4.3, built in |
 | **Website** | [www.mcmito.com](https://www.mcmito.com) |
 | **Contact / licence keys** | cmcman@essex.ac.uk |
 
@@ -38,7 +38,7 @@ The whole application runs locally on your computer. Your data never leave it.
 | **Force** | Tindeq Progressor force gauge: MVC trials, isometric holds with a target band, per-repetition force metrics, and a participant view for a second screen showing the current stage with its timer, the next stage with its duration, and a live force bar. |
 | **Physiological calibration** | Captures the SmO₂ nadir and reperfusion peak of the ischaemic calibration live, so targets and tiles can be shown as a % of the physiological range. |
 | **Sessions and exports** | `.mcmito` sessions with markers, protocol, force trace and protocol events; autosave and resume after an interruption; CSV, JSON and MATLAB exports. |
-| **Analysis** | MCMITO 1.4.1 is built in: blood flow correction, calibration, per-occlusion slopes, recovery-curve fitting, exercise and force dose, Excel and PDF reports. |
+| **Analysis** | MCMITO 1.4.3 is built in: blood flow correction, calibration, per-occlusion slopes, recovery-curve fitting, exercise and force dose, Excel and PDF reports. |
 
 ---
 
@@ -100,7 +100,7 @@ Use *Help → Check for updates…*. The app only installs releases published he
 
 McMito Live records the data; the analysis is MCMITO. Please cite MCMITO and the method:
 
-> McManus, C. (2026). *MCMITO: Near-infrared spectroscopy analysis of skeletal-muscle mitochondrial oxidative capacity* (Version 1.4.1) [Computer software]. Zenodo. https://doi.org/<DOI>
+> McManus, C. (2026). *MCMITO: Near-infrared spectroscopy analysis of skeletal-muscle mitochondrial oxidative capacity* (Version 1.4.3) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22647702
 
 > Ryan TE, Erickson ML, Brizendine JT, Young HJ, McCully KK. Noninvasive evaluation of skeletal muscle mitochondrial capacity with near-infrared spectroscopy: correcting for blood volume changes. *Journal of Applied Physiology*. 2012;113(2):175–183. https://doi.org/10.1152/japplphysiol.00319.2012
 
@@ -117,6 +117,10 @@ McMito Live is **proprietary, licensed software** provided under an End-User Lic
 McMito Live is intended for **research and educational use only and is not a medical device**. It is not for the diagnosis, prevention, monitoring, prediction, prognosis, treatment or alleviation of disease, and it has not been assessed by the MHRA or any other regulatory authority.
 
 ## Changelog
+
+### 1.4.3 — 28 October 2026
+
+Builds in MCMITO 1.4.3 (the first update since 1.4.1; there was no public 1.4.2 of McMito Live). Recordings store the sensor's "no reading" zeros as blanks, and the raw-hex preference applies to the current session. In the Analyse tab: settings no longer revert after Compute slopes, session files open in the standalone MCMITO, the Protocol boxes drive the analysis, cuff markers can be loaded from a `.mcmito` for an imported raw device file, the per-occlusion fit figure keeps its panel size for long protocols, and the Data Cleaning controls scroll on their own. Acquisition and cuff control are unchanged. See the [release notes](https://github.com/McManus-C/McMito-Live-releases/releases/tag/v1.4.3).
 
 ### 1.4.1 — 12 October 2026
 
